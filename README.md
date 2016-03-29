@@ -7,7 +7,7 @@ A general purpose JavaScript library.
 
     "This is pretty {0}".format("cool");
     
-## toInt(fallback)
+### toInt(fallback)
 
     "123".toInt();
     "123a".toInt(3);
