@@ -1,20 +1,20 @@
 # GeneralJS
 A general purpose JavaScript library.
 
-### Strings
+## Strings
 
-## format
+### format
 
     "This is pretty {0}".format("cool");
     
-## toInt
+### toInt
 
     "123".toInt();
     "123a".toInt(3);
     
-### Boolean
+## Boolean
 
-## flip
+### flip
 
     var test = true;
     test.flip();
