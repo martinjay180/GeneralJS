@@ -19,6 +19,6 @@ A general purpose JavaScript library.
     var test = true;
     test.flip();
 
-Helpful when making a toggle function!
+Helpful when making a toggle function:
 
     <button ng-click="displayStuff.flip()"></button>
