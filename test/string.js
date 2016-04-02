@@ -26,8 +26,15 @@ describe('String toInt()', function() {
 
   describe('toInt("3")', function () {
     it('should equal 2', function () {
-      	assert.equal("2".toInt("3"), 2);
-      	assert.equal("asdf".toInt("3"),3);
+      	assert.equal("2".toInt(3), 2);
+      	assert.equal("asdf".toInt(3),3);
+    });
+  });
+
+  describe('toInt() on bad string', function () {
+    it('should equal fallback', function () {
+    	var str = "";
+      	assert.equal(str.toInt(4), 4);
     });
   });
 
