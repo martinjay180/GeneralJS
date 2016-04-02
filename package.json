@@ -4,7 +4,7 @@
   "description": "A general purpose JavaScript library.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
     "url": "https://github.com/martinjay180/GeneralJS/issues"
   },
   "homepage": "https://github.com/martinjay180/GeneralJS#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
