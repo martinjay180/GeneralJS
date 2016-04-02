@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
+deploy:
+  provider: npm
+  email: martin@martinjay.me
+  api_key:
+    secure: AwebXbYk5hLseTjYqhScj97uB8IzbX9l0t/7+NW/1LjdsUuokflyQ5zAjJHs+gw7lrhs6v50hN4FVcPDAiurBSR4EIuHhV7XK57YqLOv4Grmuv3aEdM4eloBV8RLY1dOA0Fl97tOp/MjNNT6k3ckNQNEzISsxBwgzjDEdYmfE5A/dV8PObkWUcslBnw2WNZoAYXZoJYtyHpk/WKNZLLyoNQRdsDhwaF8OXofzkIGlJj8VuGR8jQipgnQnJjslq5IGkiX05aargN+iIxbVUEu0OElKBy7ewhs7TTcJP0eCpMAddEwV8HkQWY6he3eujWrOcIRvrBXOKHSh9pB4JN4ITloCCk0Ghqq4pSrUtrU0Orl90bAmw1w7t/u/UN+yMUZgKMsB+B1gSN5A45ckBokRZvHg0XF2qPVZSvqXSobo1I/SSCBETgG5oMNOnVdpUU8ZVF0qYE3haQlViv3JKbJuDXMUeRz5qLL2x1qW5/gsUCUEjTPXTetSNa/3qdwGqtUHsuLPJCAFwdC8pgJV0q9co2t3dsEQFWsZobsxzGArg8z9af1cuNCjc933UTOA5zWzYpD4v15MCTO3xY6zmmDJ929x5qPZXZnFhHOfdXEjhHhjIo+wsi/J8Og2R8ZQN3AB7kvpxq5Xa5+tyQW0t/KquDSfx1JDDZQGayDAVaZ7pU=
+  on:
+    tags: true
+    repo: martinjay180/GeneralJS
