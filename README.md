@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/martinjay180/GeneralJS.png)](https://travis-ci.org/ martinjay180/GeneralJS)
 # GeneralJS
 A general purpose JavaScript library.
 
