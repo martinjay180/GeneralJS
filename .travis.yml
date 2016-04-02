@@ -9,3 +9,5 @@ deploy:
   on:
     tags: true
     repo: martinjay180/GeneralJS
+script: "npm run-script test-travis"
+after_script: "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"

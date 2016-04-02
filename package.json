@@ -4,7 +4,8 @@
   "description": "A general purpose JavaScript library.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha",
+    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   "homepage": "https://github.com/martinjay180/GeneralJS#readme",
   "dependencies": {},
   "devDependencies": {
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.2",
     "mocha": "^2.4.5"
   }
 }
