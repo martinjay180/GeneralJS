@@ -2,6 +2,7 @@
 A general purpose JavaScript library.
 
 [![build status](https://secure.travis-ci.org/martinjay180/GeneralJS.png)](https://travis-ci.org/ martinjay180/GeneralJS)
+[![Coverage Status](https://coveralls.io/repos/github/martinjay180/GeneralJS/badge.svg?branch=master)](https://coveralls.io/github/martinjay180/GeneralJS?branch=master)
 
 ## Strings
 
