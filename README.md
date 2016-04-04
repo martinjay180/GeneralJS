@@ -1,4 +1,3 @@
-[![Stories in Ready](https://badge.waffle.io/martinjay180/GeneralJS.png?label=ready&title=Ready)](https://waffle.io/martinjay180/GeneralJS)
 # GeneralJS
 A general purpose JavaScript library.
 
