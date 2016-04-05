@@ -39,3 +39,9 @@ describe('String toInt()', function() {
   });
 
 });
+
+describe('String reverse()', function() {
+    it('should equal tset', function(){
+        assert.equal("test".reverse(), "tset");
+    });
+});

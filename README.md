@@ -15,6 +15,14 @@ A general purpose JavaScript library.
     "123".toInt();
     "123a".toInt(3);
     
+### reverse
+
+    "test".reverse();
+    
+Output:
+
+    tset
+    
 ## Boolean
 
 ### flip
