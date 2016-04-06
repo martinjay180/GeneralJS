@@ -11,3 +11,14 @@ describe('Boolean', function() {
   });
 
 });
+
+describe('Boolean log()', function () {
+    it('should output true to console', function () {
+        var test = true;
+        test.log();
+    });
+    it('should output true to console with message', function(){
+        var test = true;
+        test.log("Message:");
+   });
+});
