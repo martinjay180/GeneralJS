@@ -55,3 +55,20 @@ Helpful when making a toggle function:
     arr.log("Message");
     => [ 'one', 'two', 'three' ]
     => Message: [ 'one', 'two', 'three' ]
+    
+### asArray
+
+This function will return the passed object as an array. Useful when objects or arrays can be supplied.
+
+    var a = 1;
+    var b = [1,2,3];
+    Array.asArray(a);
+    Array.asArray(b);
+    => [1];
+    => [1,2,3];
+    
+## Object
+
+### getObject
+
+This function will test if an object has a property and return it. It can also take in an array of properties to test and it returns the first match. Will return fallBack value if no matches are made.
