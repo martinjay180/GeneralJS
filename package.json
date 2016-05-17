@@ -1,6 +1,6 @@
 {
   "name": "general-js",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A general purpose JavaScript library.",
   "main": "index.js",
   "scripts": {
