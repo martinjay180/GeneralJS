@@ -19,3 +19,10 @@ describe('Array asArray()', function () {
         assert.equal(Array.asArray(a), a);
     });
 });
+
+describe('Array last()', function () {
+    it('should equal three', function () {
+        assert.equal(a.last(), "three");
+    });
+});
+

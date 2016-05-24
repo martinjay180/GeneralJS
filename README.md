@@ -48,6 +48,14 @@ Helpful when making a toggle function:
     
 ## Array
 
+### last
+
+The last function will return the last item in the array.
+
+    var arr = [ 'one', 'two', 'three' ];
+    arr.last();
+    => 'three'
+
 ### log 
 
     var arr = [ 'one', 'two', 'three' ];
