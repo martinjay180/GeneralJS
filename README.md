@@ -79,12 +79,12 @@ This function will return the passed object as an array. Useful when objects or 
 
 ### getValue
 
-This function will test if an object has a property and return it. It can also take in an array of properties to test and it returns the first match. Will return fallBack value if no matches are made.
+This function will test if an object has a property and return it. It can also take in compound properties (i.e. find property recursively). Will return fallBack value if no matches are made and false if no matches and no fallBack.
 
-    var obj = {a:1, b:2, c:3};
+    var obj = {'a': { 'b' : { 123 } }, 'b' : 2, 'c' : 3};
     obj.getValue("c");
     => 3;    
     obj.getValue("d",4);
     => 4;
-    obj.getValue(["d","e","c"]);
-    => 3;
+    obj.getValue("a.b");
+    => 123;
